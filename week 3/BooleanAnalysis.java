@@ -15,7 +15,7 @@ System.out.println("part1 && part2: " + intermediate);
 
 boolean finalResult = intermediate || part3; // false || true = true
 System.out.println("Final result: " + finalResult);
-boolean directResult = (5 > 3) && (4 < 2) || (10 == 10);
+boolean directResult = part1 && part2 || part3;
 System.out.println("Direct result: " + directResult);
 }
 }
