@@ -1,8 +1,12 @@
 public class BooleanAnalysis {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         boolean part1 = (5 > 3);
         boolean part2 = (4 < 2);
-        boolean part3 = (10 == 10);
+        int value = 10;
+        boolean part3 = (value == 10);
         System.out.println("5 > 3: " + part1);
 System.out.println("4 < 2: " + part2);
 System.out.println("10 == 10: " + part3);
